@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+   
+}
+
+body{
+    background-color: #122620
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+    align-items: center;
+    padding: 30px;
+    background-color: #122620;
+}
+
+h1{
+    color: #D6AD60;
+    font-size: 70px;
+    font-family: 'Kalam', cursive;
+}
+
+h2{
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+   
+
+    padding-top: 50px;
+    padding-left: 150px;
+   margin-bottom: -80px;
+
+}
+
+section p{
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    width: 70rem;
+}
+
+section img{
+    width: 300px;
+    height: 350px;
+    border-radius: 40%;
+    margin-bottom: 4rem;
+}
+
+
+
+#divMisija, #divPovjest {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40px;
+    /* gap: 20rem; */
+
+}
+
+#misija{
+    background-color: #D6AD60;
+}
+
+#povjest{
+    background-color: #D6AD60;
+
+}
+
+#vizija{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+    gap: -100rem;
+    color: #D6AD60;
+    
+}
+
+#vizija h2{
+    margin: 0;
+    padding: 0;
+    padding-right: 10rem;
+    margin-left: -10rem;
+    color: #D6AD60;
+
+}
+
+#divVizija{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 40px; */
+    gap: 10rem;
+
+    
+}
+
+
+#divVizija p{
+    color: #D6AD60;
+
+}
